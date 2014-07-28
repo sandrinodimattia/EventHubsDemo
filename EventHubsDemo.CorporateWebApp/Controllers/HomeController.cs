@@ -26,7 +26,7 @@ namespace EventHubsDemo.CorporateWebApp.Controllers
 
         public ActionResult Contact()
         {
-            Trace.WriteLine(String.Format("Request on /Home/About by {0}", Request.UserAgent));
+            Trace.WriteLine(String.Format("Request on /Home/Contact by {0}", Request.UserAgent));
 
             return View();
         }
